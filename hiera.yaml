@@ -1,0 +1,10 @@
+---
+version: 5
+
+defaults:
+  datadir: "/vagrant/data"
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "Common data"
+    path: "common.yml"
